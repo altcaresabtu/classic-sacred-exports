@@ -1,0 +1,176 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#FFF8EE;
+color:#222;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:#5A1020;
+position:sticky;
+top:0;
+z-index:100;
+padding:15px 0;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+height:70px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(
+rgba(0,0,0,.5),
+rgba(0,0,0,.5)
+),
+url('../assets/images/kumkum.jpeg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+background:#D4AF37;
+padding:12px 30px;
+margin:15px;
+color:black;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn-outline{
+display:inline-block;
+color:white;
+border:2px solid white;
+padding:12px 30px;
+border-radius:5px;
+text-decoration:none;
+}
+
+.trust{
+padding:60px 0;
+}
+
+.trust .container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.trust-box{
+background:white;
+padding:25px;
+text-align:center;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:50px 0;
+}
+
+.card{
+background:white;
+overflow:hidden;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+text-align:center;
+}
+
+.about{
+padding:80px 0;
+background:white;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+padding:40px 0;
+}
+
+input,
+textarea{
+padding:15px;
+border:1px solid #ccc;
+}
+
+button{
+padding:15px;
+background:#5A1020;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+footer{
+background:#5A1020;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:35px;
+}
+
+nav{
+display:none;
+}
+
+}
