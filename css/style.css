@@ -191,7 +191,23 @@ nav a:focus-visible {
     text-align: center;
     box-shadow: 0 5px 18px rgba(70, 0, 0, .08);
 }
+.trust{
 
+    padding:40px 0 15px 0;
+}
+
+.shipping-box small{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:.85rem;
+
+    color:#5A1020;
+
+    font-weight:600;
+}
 .catalog {
     padding: 60px 0 76px;
 }
